@@ -5,4 +5,18 @@ header {
 	width: 100%;
 	background: black;
 	color:  #FF62EB;
+
+	.logo {
+		position: absolute;
+		top: 50%; left: 15px;
+		@include translate(-50%);
+}
+
+	nav {
+	position: absolute;
+	top: 50%; right: 15px;
+	@include translateY(-50%);
+	
+}
+
 }
