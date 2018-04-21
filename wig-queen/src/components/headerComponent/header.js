@@ -6,7 +6,7 @@ import Header extends Component {
   render() {
     return (
       <header>
-          Test Header
+          WigQueen
       </header>
     );
   }
