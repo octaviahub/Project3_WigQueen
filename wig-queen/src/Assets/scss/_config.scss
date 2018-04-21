@@ -1,0 +1,24 @@
+$black: #010000;
+$white: #ffffff;
+$lightGrey: #e6e6e6;
+$darkGrey: #333;
+$red: #ff1755;
+
+
+body {
+	font-family: 'Alegreya', serif;
+
+}
+
+@mixin translate($e) {
+	-webkit-transform: translateY($e);
+		-moz-transform: translateY($se);
+			transform: translateY($e);
+
+}
+
+@mixin transition($e) {
+	-webkit-transition: $e;
+		-moz-transition: $e;
+			transition: $e;
+}
