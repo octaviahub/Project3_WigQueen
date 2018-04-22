@@ -2,10 +2,12 @@
   color: #FF62EB;
   text-align: center;
   font-weight: bold;
-  font-size: 210px;
+  font-size: 200px;
   font-family: 'Alegreya', serif; }
 
 header {
-	background: url("./moulin.png");
-
-}
+  background: url("./moulin.png");
+  position: relative;
+  display: block;
+  width: 100%;
+  color: #67D0F7; }

@@ -5,35 +5,7 @@ $darkGrey: #333;
 $red: #ff1755;
 
 
-body {
-	font-family: 'Alegreya', serif;
-	font-size: 18px;
-	color: 
-	font-weight: 400;
-	font-style: normal;
-
-}
-
-a {
-	text-decoration: none;
-	@mixin translate(.4s ease-in-out);
-	cursor: pointer;
-	
-}
-
-	&:hover {
-		color: $lightGrey;
-		@mixin transition(.4s ease-in-out);
-
-}
-
-
-.container-fluid {
-	line-height: 24px;
-
-}
-
-@mixin translate($e) {
+@mixin translateY($e) {
 	-webkit-transform: translateY($e);
 		-moz-transform: translateY($e);
 			transform: translateY($e);
@@ -46,3 +18,28 @@ a {
 			transition: $e;
 }
 
+
+body {
+	font-family: 'Alegreya', serif;
+	font-size: 18px;
+	color: $black;
+	font-style: normal;
+
+}
+
+a {
+	text-decoration: none;
+	@include translateY(.4s ease-in-out);
+	cursor: pointer;
+
+	&:hover {
+		color: $lightGrey;
+		@include transition(.4s ease-in-out);
+
+}
+}
+
+.container-fluid {
+	line-height: 24px;
+
+}

@@ -4,13 +4,19 @@
   color: #FF62EB;
   text-align: center;
   font-weight: bold;
-  font-size: 210px;
-  font-family: 'Alegreya', serif; 
+  font-size: 90px;
+  font-family: 'Alegreya', serif;
+  @include translateY(-50%); 
 
 }
 
 header {
 	background: url("./moulin.png");
+	position: relative;
+	display: block;
+	width: 100%;
+	color: #67D0F7;
+
 
 }
 
@@ -20,15 +26,17 @@ nav ul li {
 	margin: 0;
 	padding: 0;
 
+}
+
 nav { 
 	position: absolute;
 	top: 50%; right: 15px;
-	@include translate(-50%);
+	@include translateY(-50%);
 
 	ul li {
 		list-style-type: none;
 		display: inline-block;
-		mardin-right: 10px;
+		mardin-right: 20px;
 
 		&.last{
 			margin: 0;
@@ -43,5 +51,7 @@ nav {
 	}
 
 }
+
+
 
 
