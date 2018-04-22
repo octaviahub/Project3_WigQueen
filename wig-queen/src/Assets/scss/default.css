@@ -1,0 +1,20 @@
+body {
+  font-family: 'Alegreya', serif; }
+
+.logo {
+  color: #FF62EB;
+  text-align: center;
+  font-weight: bold;
+  font-size: 210px;
+  font-family: 'Alegreya', serif; }
+
+header {
+  background: url("./moulin.png"); }
+
+nav {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%); }

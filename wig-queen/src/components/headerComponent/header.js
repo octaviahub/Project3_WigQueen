@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import './header.css'
 
 
 class Header extends Component {
+
 
   render() {
     return (
@@ -9,11 +11,11 @@ class Header extends Component {
 
          <div className="logo">
 
-            WigQueen Logo
+            WigQueen
 
          </div>
 
-          <nav>
+          <nav className="first">
             <ul>
               <li>
                 <a href="#">Home</a>
@@ -24,7 +26,7 @@ class Header extends Component {
               <li>
                 <a href="#">Tutorials</a>
               </li>
-              <li>
+              <li className="last">
                 <a href="#">About WigQueen</a>
               </li>
             </ul>
