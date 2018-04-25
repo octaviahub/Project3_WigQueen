@@ -15,32 +15,58 @@ a {
     -webkit-transition: 0.4s ease-in-out;
     -moz-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out; }
+  a a {
+    text-decoration: none;
+    -webkit-transform: translateY(0.4s ease-in-out);
+    -moz-transform: translateY(0.4s ease-in-out);
+    transform: translateY(0.4s ease-in-out);
+    cursor: pointer; }
+  a a:hover {
+    color: #e6e6e6;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out; }
 
 .container-fluid {
   line-height: 24px; }
-
-.logo {
-  color: #FF62EB;
-  text-align: center;
-  font-weight: bold;
-  font-size: 90px;
-  font-family: 'Alegreya', serif;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  transform: translateY(-50%); }
 
 header {
   background: url("./moulin.png");
   position: relative;
   display: block;
   width: 100%;
-  color: #67D0F7; }
+  color: #67D0F7;
+  height: 250px; }
 
+.logo {
+  color: #FF62EB;
+  text-align: center;
+  font-weight: bold;
+  font-size: 200px;
+  font-family: 'PT Sans Caption', sans-serif;
+  padding-top: 230px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+img {
+  height: 700px;
+  
+  border-color: white; 
+
+}
+
+
+.carouselDiv {
+
+
+}
 nav,
 nav ul,
 nav ul li {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  padding-top: 60px; }
 
 nav {
   position: absolute;
@@ -52,10 +78,10 @@ nav {
   nav ul li {
     list-style-type: none;
     display: inline-block;
-    mardin-right: 20px; }
+    margin-right: 20px; }
     nav ul li.last {
-      margin: 0; }
+      margin: 0px; }
     nav ul li a {
-      font-size: 20px;
+      font-size: 25px;
       line-height: normal;
-      color: #67D0F7; }
+      color: white; }

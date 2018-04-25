@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './header.css'
+// import './Assets/scss/default.scss'
 
 
 class Header extends Component {
@@ -17,18 +17,21 @@ class Header extends Component {
 
           <nav className="first">
             <ul>
-              <li>
+               <li>
+                <a href="#">Login</a>
+                </li>
+                <li>
                 <a href="#">Home</a>
-              </li>
-              <li>
+                </li>
+                <li>
                 <a href="#">Shop</a>
-              </li>
-              <li>
+               </li>
+               <li>
                 <a href="#">Tutorials</a>
-              </li>
-              <li className="last">
+               </li>
+                <li className="last">
                 <a href="#">About WigQueen</a>
-              </li>
+                </li>
             </ul>
           </nav>
 

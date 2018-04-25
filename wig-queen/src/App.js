@@ -1,11 +1,23 @@
 import React, { Component } from 'react';
 
+// import {
+// 	BrowserRouter as Router,
+// 	Route,
+// 	Link
+// } from 'react-router-dom';
+
+
+// components
+
 import Header from './components/headerComponent/header';
 import Footer from './components/footerComponent/footer';
 import Homepage from './components/pages/homePage';
+import Carousel from './components/carouselComponent/carousel.js';
 
+import './Assets/scss/default.css';
 
-import './Assets/scss/default.scss';
+// includes
+
 
 
 class App extends Component {
@@ -15,7 +27,12 @@ class App extends Component {
 
         <Header />
 
-        <Homepage />
+          <Carousel />
+
+        	<Homepage />
+
+        	
+        
 
         <Footer />
         

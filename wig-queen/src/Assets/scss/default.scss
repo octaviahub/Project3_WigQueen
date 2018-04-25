@@ -1,23 +1,33 @@
 @import "_config.scss";
 
-.logo {
-  color: #FF62EB;
-  text-align: center;
-  font-weight: bold;
-  font-size: 90px;
-  font-family: 'Alegreya', serif;
-  @include translateY(-50%); 
-
-}
-
 header {
 	background: url("./moulin.png");
 	position: relative;
 	display: block;
 	width: 100%;
 	color: #67D0F7;
+	height: 250px
+	
 
+}
 
+.logo {
+  color: #FF62EB;
+  text-align: center;
+  font-weight: bold;
+  font-size: 200px;
+  font-family:  'PT Sans Caption', sans-serif;;
+  padding-top: 205px;
+  @include translateY(-50%); 
+
+}
+
+img {
+	height: 700px;
+	border-style: solid;
+	border-weight: 30px;
+	border-color: white;
+	
 }
 
 nav,
@@ -25,6 +35,7 @@ nav ul,
 nav ul li {
 	margin: 0;
 	padding: 0;
+	padding-top: 60px
 
 }
 
@@ -36,16 +47,17 @@ nav {
 	ul li {
 		list-style-type: none;
 		display: inline-block;
-		mardin-right: 20px;
+		margin-right: 20px;
+		// color: #67D0F7;
 
 		&.last{
-			margin: 0;
+			margin: 0px;
 		}
 
 		a {
-			font-size: 20px;
+			font-size: 25px;
 			line-height: normal;
-			color: #67D0F7;
+			color: white;
 		}
 
 	}
