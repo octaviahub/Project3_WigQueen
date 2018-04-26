@@ -28,7 +28,8 @@ a {
     transition: 0.4s ease-in-out; }
 
 .container-fluid {
-  line-height: 24px; }
+  line-height: 24px; 
+}
 
 header {
   background: url("./moulin.png");
@@ -36,35 +37,37 @@ header {
   display: block;
   width: 100%;
   color: #67D0F7;
-  height: 250px; }
+  height: 250px; 
+
+}
 
 .logo {
   color: #FF62EB;
   text-align: center;
   font-weight: bold;
-  font-size: 200px;
+  font-size: 150px;
   font-family: 'PT Sans Caption', sans-serif;
-  padding-top: 230px;
+  padding-top: 205px;
+  padding-right: 200px;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   transform: translateY(-50%); }
 
+  .carousel-wrapper {
+    padding: 200px, 200px, 200px, 200px;
+  }
+
 img {
-  height: 700px;
-  
-  border-color: white; 
+  height: 700px; }
 
+.about-link {
+  margin-right: 55px; 
 }
 
-
-.carouselDiv {
-
-
-}
 nav,
 nav ul,
 nav ul li {
-  margin: 0;
+  margin-right: 200px;
   padding: 0;
   padding-top: 60px; }
 

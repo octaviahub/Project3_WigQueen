@@ -8,7 +8,15 @@ import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 class headerCarousel extends Component {
 
 	render(){
+		const settings = {
+			dots: true,
+			infinite: true,
+			speed: 500,
+			// slideToShow: 1
+			// slidesToScroll: 1
+		};
 		return (
+			<div className="carousel-wrapper">
 			<Carousel>
 					<div className="carouselDiv">
 						<img src={require('../../Assets/images/img10.jpeg')}/>
@@ -35,6 +43,7 @@ class headerCarousel extends Component {
 						<p className="headerImage"></p>
 					</div>
 			</Carousel>
+			</div>
 		);
 	}
 }

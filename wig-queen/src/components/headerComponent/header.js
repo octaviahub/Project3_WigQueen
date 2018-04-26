@@ -30,7 +30,7 @@ class Header extends Component {
                 <a href="#">Tutorials</a>
                </li>
                 <li className="last">
-                <a href="#">About WigQueen</a>
+                <a className="about-link" href="#">About WigQueen</a>
                 </li>
             </ul>
           </nav>

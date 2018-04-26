@@ -15,7 +15,7 @@ header {
   color: #FF62EB;
   text-align: center;
   font-weight: bold;
-  font-size: 200px;
+  font-size: 150px;
   font-family:  'PT Sans Caption', sans-serif;;
   padding-top: 205px;
   @include translateY(-50%); 
@@ -24,18 +24,20 @@ header {
 
 img {
 	height: 700px;
-	border-style: solid;
-	border-weight: 30px;
-	border-color: white;
 	
+}
+
+.last {
+	margin-right: 55px;
 }
 
 nav,
 nav ul,
 nav ul li {
-	margin: 0;
+	margin-right: 200px;
 	padding: 0;
 	padding-top: 60px
+
 
 }
 
