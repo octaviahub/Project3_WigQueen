@@ -8,6 +8,7 @@ class Aboutpage extends Component {
       <div className="container-fluid">
 
         
+        <h1> Hello World </h1>
 
       </div> 
     );

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-// import './Assets/scss/default.scss'
+import {
+  Link
+
+} from 'react-router-dom';
 
 
 class Header extends Component {
@@ -13,24 +16,35 @@ class Header extends Component {
 
             WigQueen
 
+            {/* <div className="icon-div">*/}
+
+             <img className="twitterIcon" src={require('../../Assets/images/twitter-icon.png')}/>
+             <img className="instagramIcon" src={require('../../Assets/images/instagram-icon.png')}/>
+             <img className="facebookIcon" src={require('../../Assets/images/facebook-icon.png')}/>
+             
+           
+           
+
          </div>
+
 
           <nav className="first">
             <ul>
                <li>
-                <a href="#">Login</a>
+                <Link to ="/Loginpage">Login</Link>
+                
                 </li>
                 <li>
-                <a href="#">Home</a>
+                <Link to ="/Homepage">Home</Link>
                 </li>
                 <li>
-                <a href="#">Shop</a>
+                <Link to ="/Shoppage">Shop</Link>
                </li>
                <li>
-                <a href="#">Tutorials</a>
+               <Link to ="/Tutorialspage">Tutorials</Link>
                </li>
                 <li className="last">
-                <a className="about-link" href="#">About WigQueen</a>
+                <Link to ="/Aboutpage">About</Link>
                 </li>
             </ul>
           </nav>
