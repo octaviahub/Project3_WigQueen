@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Carousel from '../../components/carouselComponent/carousel.js';
 
 
 
@@ -8,7 +9,8 @@ class Homepage extends Component {
     return (
 
       <div className="container-fluid">
-
+      	Hellow
+      	 <Carousel />
 
       </div> 
     );

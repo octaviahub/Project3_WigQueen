@@ -4,6 +4,8 @@ import {
 
 } from 'react-router-dom';
 
+import * as routes from '../../../src/server/routes';
+
 
 class Header extends Component {
 
@@ -18,14 +20,10 @@ class Header extends Component {
 
             {/* <div className="icon-div">*/}
 
-             <img className="twitterIcon" src={require('../../Assets/images/twitter-icon.png')}/>
-             <img className="instagramIcon" src={require('../../Assets/images/instagram-icon.png')}/>
-             <img className="facebookIcon" src={require('../../Assets/images/facebook-icon.png')}/>
-             
-           
-           
-
-         </div>
+             {/*<a href="https://twitter.com/WigQueen_" id="twitter" onClick="document.location=this.id+'html'; return false;"><img className="twitterIcon" src={require('../../Assets/images/twitter-icon.png')}/></a>
+             // <img className="instagramIcon" src={require('../../Assets/images/instagram-icon.png')}/>
+             // <img className="facebookIcon" src={require('../../Assets/images/facebook-icon.png')}/>*/}
+            </div>
 
 
           <nav className="first">
@@ -35,7 +33,7 @@ class Header extends Component {
                 
                 </li>
                 <li>
-                <Link to ="/Homepage">Home</Link>
+                <Link to ="/">Home</Link>
                 </li>
                 <li>
                 <Link to ="/Shoppage">Shop</Link>

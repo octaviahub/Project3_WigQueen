@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
+  Switch,
   Link
 } from 'react-router-dom'
 // import {
@@ -36,14 +37,14 @@ class App extends Component {
 
         <Header />
 
-          
-
+         
+            <Switch>
             <Route exact path='/' component={Homepage}/>
             <Route exact path='/Aboutpage' component={Aboutpage} />
             <Route exact path='/Loginpage' component={Loginpage} />
             <Route exact path='/Shoppage' component={Shoppage} />
             <Route exact path='/Tutorialspage' component={Tutorialspage} />
-
+            </Switch>
 
         <Footer />
         

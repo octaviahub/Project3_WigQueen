@@ -36,11 +36,38 @@ header {
   -moz-transform: translateY(-50%);
   transform: translateY(-50%); }
 
+.row-1 {
+  float: right;
+}
+
+
+/*img,
+.twitterIcon, 
+.instagramIcon, 
+.facebookIcon {
+  height: 40px;
+  width: 40px;
+
+position: absolute;
+
+right: 15px;
+padding: 0;
+margin-right: 20px;
+*/
+}
+
+.ytp-cued-thumbnail-overlay-image,
+.html5-video-player{
+  width: 75%;
+  height: 65%;
+}
+
 nav,
 nav ul,
 nav ul li {
   margin: 0;
-  padding: 0; }
+  padding: {
+    0; }
 
 nav {
   position: absolute;
